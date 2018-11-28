@@ -1,0 +1,121 @@
+body{
+	background-color: white;
+	height: 1600px;
+}
+
+ul {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;	
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: .95;	
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.cover{
+	background-image: url(japan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -10px;
+	height: 450px;
+	margin: -20px;
+	//filter: grayscale(5)
+}
+.cover h1{
+	text-align: center;
+	font-size: 110px;
+	padding-top: 125px;
+	color: white;
+	text-shadow: 3px 3px 4px #000000;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.block_one{
+	height: 650px;
+	background-color: white;
+	width 110%;
+	margin: -15px;
+	margin-top: -30px;
+}
+
+.block_one h1{
+	color: #BC002D;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Courgette', cursive;
+}
+
+.block_one p{
+	color: black;
+	text-align: center;
+	padding: 15px 150px 15px 150px;
+	font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.block_two{
+	background-image: url(japan2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+	margin: -20px;
+	//filter: grayscale(5)
+}
+
+.block_three{
+	height: 310px;
+	background-color: white;
+	width 110%;
+	margin: -15px;
+	margin-top: -30px;
+}
+
+.block_three p{
+	color: black;
+	text-align: center;
+	padding: 30px 150px 15px 150px;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: #BC002D;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25%;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 5%;
+  width: 50%;
+  padding-bottom: -10px;
+  font-family: 'PT Sans Narrow', sans-serif;	
+}
